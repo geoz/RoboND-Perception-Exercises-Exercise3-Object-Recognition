@@ -59,7 +59,7 @@ def compute_normal_histograms(normal_cloud):
                                           skip_nans=True):
         norm_x_vals.append(norm_component[0])
         norm_y_vals.append(norm_component[1])
-        norm_z_vals.append(norm_component[2])`
+        norm_z_vals.append(norm_component[2])
 
     # TODO: Compute histograms of normal values (just like with color)
     channel_1_vals = []
